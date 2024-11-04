@@ -12,8 +12,8 @@ on:
       - master
 
 env:
-  MONGODB_URI: mongodb://localhost:27017/test
-  NODE_ENV: test
+  MONGODB_URI: mongodb://localhost:27017/dockerTest
+  NODE_ENV: dockerTest
   PORT: 3000
 
 jobs:
